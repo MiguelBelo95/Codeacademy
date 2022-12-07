@@ -1,0 +1,128 @@
+html,
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+.header {
+  height: 69px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: black;
+}
+
+#tea_cosy_logo img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+  margin: 10px 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  align-content: space-around;
+  margin-right: 20px;
+}
+
+#Our_Mission {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center; /* flex items will adjust on the center of cross axis */
+  background-position: center;
+  background-size: cover;
+}
+.mission_container {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.mission_container h4 {
+  margin: 10px auto;
+}
+
+.mission_container h2 {
+  margin: 10px auto;
+}
+
+#tea_of_month {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card_display {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards {
+  flex-basis: 300px; /*This didn't function, why? I had to go on HTML file to add W=300px H=200px */
+  margin: 0px 10px;
+}
+
+.cards h4 {
+  margin-top: 10px;
+}
+
+#locations {
+  display: flex;
+  background-image: url("file:///Users/miguelbelo/Documents/Programming/codeacademy/projects/Teacozy/resources/images/img-locations-background.webp");
+  height: 500px;
+  justify-content: center; /* for h2 to be centered */
+  align-items: center; /*for flex items to be vertically centered */
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+}
+
+.location_headliner {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.location_Bbox {
+  display: flex;
+  justify-content: center;
+}
+.box_location {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  margin-right: 40px;
+  margin-top: 0;
+  opacity: 1;
+  background-color: black;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.copyright {
+  align-self: flex-start;
+  padding-left: 20px;
+}

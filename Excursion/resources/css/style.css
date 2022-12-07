@@ -1,0 +1,52 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  align-self: center;
+}
+
+.travel_guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel_guide h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+.travel_guide h4 {
+  font-family: verdana;
+  font-size: 21px;
+  color: gray;
+}
+
+.footer {
+  text-align: right;
+  color: gray;
+}
